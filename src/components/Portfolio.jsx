@@ -11,10 +11,10 @@ import ProjectModal from "./ProjectModal";
 const projects = [
   {
     id: 1,
-    title: "",
+    title: "Web Store Design",
     image: "/portfolio/1/Home Store Overview.png",
     description:
-      "",
+      "A web design for an online fashion store, focused on helping shoppers browse and find products with ease. The home page combines a hero banner, a promo section with flash sale highlights, popular products, product categories, and an info section. The search results page adds a filter panel and a clean product grid so users can narrow down their choices quickly. Designed in Figma with a consistent layout and a clear visual hierarchy.",
     screenshots: [
       "/portfolio/1/Home Store Overview.png",
       "/portfolio/1/Search Store Overview.png",

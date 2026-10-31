@@ -24,7 +24,7 @@ function About() {
         <a href="#contact" className="btn btn-primary">
           Contact Me
         </a>
-        <a href="/cv-joseph.pdf" className="btn btn-outline" download>
+        <a href="/files/CV.pdf" className="btn btn-outline" download>
           Download CV
         </a>
       </div>
