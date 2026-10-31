@@ -6,7 +6,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const lastY = useRef(0);
 
-  // Sembunyi saat scroll ke bawah, tampil saat scroll ke atas
+  // hidden
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY;
@@ -29,7 +29,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Tutup menu dengan tombol Esc atau saat layar melebar ke ukuran desktop
+  // esc close hamburg menu
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") setMenuOpen(false);

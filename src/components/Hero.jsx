@@ -2,8 +2,6 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero-image">
-        {/* <div className="hero-shape hero-shape--shadow" />
-        <div className="hero-shape" /> */}
         <img
           src="/images/gweh.svg"
           alt="Foto Joseph"

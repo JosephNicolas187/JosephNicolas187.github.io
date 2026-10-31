@@ -1,17 +1,12 @@
 import SectionHeading from "./SectionHeading";
 
-// Ukuran area gambar (viewBox) dan kebulatan ujung polygon
 const VIEW_W = 750;
 const VIEW_H = 335;
-const CORNER_RADIUS = 10; // makin besar = ujung makin bulat
+const CORNER_RADIUS = 10; 
 
 /*
   points : titik-titik polygon [x, y] dalam area 750 x 335
   label  : posisi tengah teks [x, y]
-
-  Sisi-sisi yang berhadapan dibuat sejajar dengan jarak sama (14 satuan),
-  jadi celah putih di antara segitiga terlihat rata di semua tempat.
-  Jika mengubah satu titik, geser juga titik pasangannya di bentuk sebelah.
 */
 const capabilities = [
   {

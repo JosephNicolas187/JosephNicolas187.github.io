@@ -1,7 +1,6 @@
 function Lightbox({ images, index, title, onClose, onPrev, onNext }) {
   const hasMany = images.length > 1;
 
-  // stopPropagation agar klik tombol/gambar tidak ikut menutup lightbox
   const stop = (fn) => (e) => {
     e.stopPropagation();
     fn();

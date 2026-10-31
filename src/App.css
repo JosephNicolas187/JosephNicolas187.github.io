@@ -212,10 +212,6 @@ section {
 }
 
 /* ---------- TECH STACK ---------- */
-.techstack {
-  margin-bottom: 10vh;
-}
-
 .techstack .section-heading {
   margin-bottom: 24px;
 }
@@ -781,7 +777,7 @@ html {
   display: block;
   width: 100%;
   padding: 0;
-  border: 0;
+  border: 1px solid lightgray;
   text-align: left;
   font: inherit;
   color: inherit;
@@ -890,7 +886,7 @@ html {
   aspect-ratio: 16 / 10;
   overflow: hidden;
   padding: 0;
-  border: 0;
+  border: 1px solid lightgray;
   border-radius: 8px;
   background: #e5e5e5;
   cursor: zoom-in;
@@ -991,3 +987,5 @@ html {
     animation: none !important;
   }
 }
+
+

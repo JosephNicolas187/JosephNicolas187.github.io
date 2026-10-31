@@ -8,7 +8,6 @@ const base = {
   "aria-hidden": true,
 };
 
-// Ikon placeholder (persegi + lingkaran) seperti di desain
 export function ShapeIcon({ size = 28 }) {
   return (
     <svg width={size} height={size} {...base}>

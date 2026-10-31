@@ -1,7 +1,6 @@
 import { navLinks } from "./navLinks";
 import { ShapeIcon, MailIcon, PhoneIcon } from "./Icons";
 
-// Ganti href dan label sesuai akun sosial media kamu
 const socials = [
   { label: "Social 1", href: "#" },
   { label: "Social 2", href: "#" },

@@ -10,7 +10,6 @@ function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  // Membuka aplikasi email dengan isi form (tanpa backend)
   const handleSubmit = (e) => {
     e.preventDefault();
     const subject = encodeURIComponent(`Project inquiry from ${form.fullname}`);
